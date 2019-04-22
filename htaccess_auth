@@ -1,0 +1,10 @@
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile /var/www/html/deepakSingh/laravelDemo/.htpasswd
+Require valid-user
+
+
+
+ystraining:$apr1$kVRByb6t$wgMXlIA3pVTSH/HzPwxoE0
+
+htpasswd -c .htpasswd ystraining
